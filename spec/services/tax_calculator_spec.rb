@@ -1,5 +1,6 @@
 require 'spec_helper'
 require_relative '../../lib/services/tax_calculator'
+require_relative '../../lib/models/tax_rules'
 
 RSpec.describe TaxCalculator do
   let(:calculator) { TaxCalculator.new }
